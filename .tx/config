@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[redecoin.qt-translation-014x]
+file_filter = src/qt/locale/redecoin_<lang>.ts
+source_file = src/qt/locale/redecoin_en.ts
+source_lang = en

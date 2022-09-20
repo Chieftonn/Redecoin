@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Rede Core consensus library
+Description: Library for the Raven consensus protocol.
+Version: 2.0.0
+Libs: -L${libdir} -lredecoinconsensus
+Cflags: -I${includedir}
+Requires.private: libcrypto

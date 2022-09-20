@@ -1,0 +1,33 @@
+# /etc/conf.d/redecoind: config file for /etc/init.d/redecoind
+
+# Config file location
+#RAVEND_CONFIGFILE="/etc/redecoin/redecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $RAVEND_USER)
+#RAVEND_PIDDIR="/var/run/redecoind"
+
+# What filename to give the pidfile
+#RAVEND_PIDFILE="${RAVEND_PIDDIR}/redecoind.pid"
+
+# Where to write redecoind data (be mindful that the blockchain is large)
+#RAVEND_DATADIR="/var/lib/redecoind"
+
+# User and group to own redecoind process
+#RAVEND_USER="redecoin"
+#RAVEND_GROUP="redecoin"
+
+# Path to redecoind executable
+#RAVEND_BIN="/usr/bin/redecoind"
+
+# Nice value to run redecoind under
+#RAVEND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#RAVEND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for redecoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+RAVEND_SIGTERM_TIMEOUT=60
