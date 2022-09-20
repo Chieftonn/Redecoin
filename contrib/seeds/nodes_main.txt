@@ -1,11 +1,1 @@
-seed1.redecoin.eu
-seed1.redecoin.eu
-seed2.redecoin.eu
-seed3.redecoin.eu
-seed4.redecoin.eu
-seed5.redecoin.eu
-seed6.redecoin.eu
-redpool.pl
-explorer.redecoin.eu
-kawpow.redecoin.eu
-xplorer.redecoin.eu
+
