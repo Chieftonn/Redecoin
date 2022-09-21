@@ -652,14 +652,14 @@ void ArgsManager::ReadConfigFile(const std::string &confPath)
                           "rpcallowip=127.0.0.1\n"
                           "\n"
                           "# List Nodes:\n"
-                          "addnode=seed1.redecoin.eu\n";
-                          "addnode=seed2.redecoin.eu\n";
-                          "addnode=seed3.redecoin.eu\n";
-                          "addnode=seed4.redecoin.eu\n";
-                          "addnode=seed5.redecoin.eu\n";
-                          "addnode=seed6.redecoin.eu\n";
-                          "addnode=kawpow.redecoin.eu\n";
-                          "addnode=explorer.redecoin.eu\n";
+                          "addnode=seed1.redecoin.eu\n"
+                          "addnode=seed2.redecoin.eu\n"
+                          "addnode=seed3.redecoin.eu\n"
+                          "addnode=seed4.redecoin.eu\n"
+                          "addnode=seed5.redecoin.eu\n"
+                          "addnode=seed6.redecoin.eu\n"
+                          "addnode=kawpow.redecoin.eu\n"
+                          "addnode=explorer.redecoin.eu\n"
                           "addnode=redpool.pl\n";
 						  
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
