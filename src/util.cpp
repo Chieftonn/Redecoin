@@ -640,7 +640,7 @@ void ArgsManager::ReadConfigFile(const std::string &confPath)
                           "rpcuser=REDE_USER\n"
                           "rpcpassword=Redecoin\n"
                           "daemon=1\n"
-                          "server=1\n"
+                          "#server=1\n"
                           "listen=1\n"
                           "#txindex=1\n"
                           "port=33567\n"
