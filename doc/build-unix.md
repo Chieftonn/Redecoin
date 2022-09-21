@@ -347,7 +347,7 @@ For the wallet (optional):
 This will give a warning "configure: WARNING: Found Berkeley DB other
 than 4.8; wallets opened by this build will not be portable!", but as FreeBSD never
 had a binary release, this may not matter. If backwards compatibility
-with 4.8-built Raven Core is needed follow the steps under "Berkeley DB" above.
+with 4.8-built Rede Core is needed follow the steps under "Berkeley DB" above.
 
 Then build using:
 
