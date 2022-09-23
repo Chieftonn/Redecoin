@@ -1,7 +1,7 @@
-Contributing to Raven Core
+Contributing to Redecoin Core
 ============================
 
-The Raven Core project operates an open contributor model where anyone is
+The Redecoin Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -82,7 +82,7 @@ Examples:
     Trivial: Fix typo in init.cpp
 
 Note that translations should not be submitted as pull requests, please see
-[Translation Process](https://github.com/RavenProject/Redecoin/blob/master/doc/translation_process.md) 
+[Translation Process](https://github.com/RedecoinProject/Redecoin/blob/master/doc/translation_process.md) 
 for more information on helping with translations.
 
 If a pull request is specifically not to be considered for merging (yet) please
@@ -169,11 +169,11 @@ workload on reviewing.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Raven Core project (and related
-projects such as libsecp256k1), and is not to be confused with overall Raven
+The following applies to code changes to the Redecoin Core project (and related
+projects such as libsecp256k1), and is not to be confused with overall Redecoin
 Network Protocol consensus changes.
 
-Whether a pull request is merged into Raven Core rests with the project merge
+Whether a pull request is merged into Redecoin Core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -191,7 +191,7 @@ In general, all pull requests must:
   - Where bugs are fixed, where possible, there should be unit tests
     demonstrating the bug and also proving the fix. This helps prevent regression.
 
-Patches that change Raven consensus rules are considerably more involved than
+Patches that change Redecoin consensus rules are considerably more involved than
 normal because they affect the entire ecosystem and so must be preceded by
 extensive mailing list discussions and have a numbered RIP. While each case will
 be different, one should be prepared to expend more time and effort than for
@@ -232,7 +232,7 @@ higher in terms of discussion and peer review requirements, keeping in mind that
 mistakes could be very costly to the wider community. This includes refactoring
 of consensus critical code.
 
-Where a patch set proposes to change the Raven consensus, it must have been
+Where a patch set proposes to change the Redecoin consensus, it must have been
 discussed extensively on the mailing list and IRC, be accompanied by a widely
 discussed RIP and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
@@ -272,7 +272,7 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each Raven Core release.
+The project leader is the release manager for each Redecoin Core release.
 
 Copyright
 ---------
@@ -281,3 +281,4 @@ By contributing to this repository, you agree to license your work under the
 MIT license unless specified otherwise in `contrib/debian/copyright` or at 
 the top of the file itself. Any work contributed where you are not the original 
 author must contain its license header with the original author(s) and source.
+](https://github.com/alfariqicrypto/Redecoin/tree/master/whitepaper)
