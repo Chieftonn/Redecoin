@@ -4,10 +4,9 @@
 
 
 <p align="center">
-Bruce Fenton<br>
-Tron Black<br>
-http://www.redecoin.org<br>
-3rd April 2018
+Rede123<br>
+http://www.redecoin.eu<br>
+10rd March 2021
 </p>
 <p align="center"><i>
 In the fictional world of Westeros, redecoins are used as messengers who carry statements of truth. Redecoin is a use-case focused blockchain designed to carry statements of truth about who owns what assets.
